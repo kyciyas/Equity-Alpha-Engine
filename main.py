@@ -50,10 +50,7 @@ engine.compute_signals()
 results = engine.run_all(mode = 'fast')
 for name, res in results.items():
     print(name, res['stats'], res['ic'])
-    tc = compute_transfer_coefficient(
-        engine.signal_values[name],
-        res['weights']
-    )
+    tc = compute_transfer_coefficient(engine.signal_values[name], res['weights'])
     print(name, "TC:", round(tc, 3))
 
 pruner = Pruner.StrategyPruner(results, ic_threshold=0.001, corr_threshold=0.5)
