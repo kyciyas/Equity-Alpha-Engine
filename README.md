@@ -88,17 +88,6 @@ Two portfolio construction approaches are implemented:
 
 ---
 
-## Results (Example)
-
-KOSPI universe, momentum signal (2016–2026):
-
-- CAGR: ~3%
-- Sharpe: ~0.37
-- MDD: ~-22%
-- TC: ~0.28
-
----
-
 ## Key Findings
 
 - **IC does not directly translate to PnL**  

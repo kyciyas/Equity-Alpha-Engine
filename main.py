@@ -42,7 +42,7 @@ mask = data.get_mask()
 
 engine = Strategy.StrategyEngine(price, returns, volume)
 
-engine.add_signal("momentum", lambda p: p.shift(5).pct_change(60, fill_method=None))
+engine.add_signal("momentum", lambda p: p.shift(25).pct_change(60, fill_method=None))
 engine.add_signal("mean_rev", lambda p: -(p.shift(1).pct_change(5, fill_method=None).rolling(3).mean()))
 
 engine.compute_signals()
