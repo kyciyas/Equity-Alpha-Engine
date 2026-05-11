@@ -1,5 +1,5 @@
 # Equity Alpha Engine (Cross-Sectional Quant Framework)
-> **Language**: [English] | [한국어](./README_kr.md)
+> **Language**: [English] | [한국어](./README_KR.md)
 ## Overview
 This project implements a **cross-sectional equity trading framework** focused on the full pipeline:
 
