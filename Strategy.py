@@ -64,7 +64,7 @@ class StrategyEngine:
             self.signal_values[name] = sig
 
 
-    # PORTFOLIO CONSTRUCTION (FIXED)
+    # PORTFOLIO CONSTRUCTION
     def run(self, signal_name, mode="fast"):
 
         signal = self.signal_values[signal_name]
